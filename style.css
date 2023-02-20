@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300&family=Open+Sans&family=Patrick+Hand&family=Poppins&family=Raleway&family=Sofia+Sans:wght@300;500&family=Unbounded&display=swap');
+
+/*
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Oleo Script', cursive;
+
+font-family: 'Sofia', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body{
+	/* background: linear-gradient(45deg, #000046, #1CB5E0) no-repeat; */
+	/* background: linear-gradient(45deg, #093637, #44A08D) no-repeat; */
+	background: linear-gradient(-50deg, #363795, #1e6ede) no-repeat;
+	/* background: #f8f8f8; */
+	height: 100%;
+	background-attachment: fixed;
+	padding-bottom: 30px;
+	padding-top: 35px;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* Intro Section */
+.intro-container{
+	color: #f8f8f8;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.img{
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+
+.name{
+	/* background: red; */
+	/* font-family: 'Sofia', cursive; */
+	/* font-family: 'Oleo Script', cursive; */
+	font-family: 'Lato', sans-serif;
+	/* font-family: 'Poppins', sans-serif; */
+	/* letter-spacing: 2px; */
+	/* color: #222; */
+	font-size: 17px;
+}
+
+.about{
+	/* background: cyan; */
+	/* color: #222; */
+	margin: 0 40px;
+	margin-top: -10px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Button Style */
+.btn-container{
+	/* margin: 10px; */
+	/* background: red; */
+	padding: 6px;
+}
+
+.btn{
+	display: block;
+	width: 100%;
+	/* background: #f8f8f8; */
+	background: none;
+	/* color: #222; */
+	color: #f8f8f8;
+	/* border: 1px solid  #222; */
+	border: 1px solid  #f8f8f8;
+	height: 57px;
+	border-radius: 28.5px;
+	transition: .5s;
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	position: relative;
+	font-size: 1rem;
+	font-family: 'Poppins', sans-serif;
+	/* font-family: 'Sofia', cursive; */
+	margin: 13px 0;
+	font-weight: 500;
+}
+
+.icon{
+	font-size: 2rem;
+	position: absolute;
+}
+
+.btn:hover{
+	background: #f8f8f8;
+	border: 1px solid #f8f8f8;
+	/* color: white; */
+	/* color: #266596; */
+	/* color: #237A57; */
+	color: #005c97;
+}
+
+/* Utility Class */
+
+.col-2{
+	/* background: yellow; */
+	/* width: 10%; */
+}
+
+.col-10{
+	/* background: red; */
+	width: 100%;
+}
+
+.fb-blue{
+	/* color: #3b5998; */
+}
+
+
+/* Responsive Design */
+@media only screen and (min-width: 600px) {
+	.body{
+		/* padding: 10px; */
+	}
+	
+	main{
+		margin: 0 15vw;
+		margin-top: 20vh;
+	}
+	
+	.about{
+		margin: 10px 15vw;
+		font-size: 2vw;
+		line-height: 30px;
+	}
+}
+
