@@ -10,10 +10,10 @@ font-family: 'Poppins', sans-serif;
 */
 
 body{
-	/* background: linear-gradient(45deg, #000046, #1CB5E0) no-repeat; */
-	/* background: linear-gradient(45deg, #093637, #44A08D) no-repeat; */
-	background: linear-gradient(-50deg, #363795, #1e6ede) no-repeat;
-	/* background-attachment: fixed; */
+/* background: linear-gradient(45deg, #000046, #1CB5E0) no-repeat; */
+/* background: linear-gradient(45deg, #093637, #44A08D) no-repeat; */
+background: linear-gradient(-120deg, #3b0cb9, #ad0a5e) no-repeat;
+/* background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% ); */	/* background-attachment: fixed; */
    /* background-position: center; */
    background-repeat: no-repeat;
 	padding-bottom: 30px;
@@ -37,6 +37,7 @@ a{
 	border-radius: 50%;
 	display: block;
 	margin: auto;
+	border: 1px solid #f8f8f8;
 }
 
 .name{
