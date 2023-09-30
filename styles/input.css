@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+
+.link{
+  @apply my-4 flex items-center gap-2 text-lg border-[1px] border-[#0072b1] text-[#0072b1] rounded rounded-3xl p-2
+}
+
